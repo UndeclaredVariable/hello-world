@@ -1,1 +1,4 @@
-document.querySelector('h1').innerHTML = 'look';
+
+function f() {
+  document.querySelector('h1').innerHTML = 'look';
+}
