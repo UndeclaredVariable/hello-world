@@ -1,4 +1,6 @@
+let nameInput = document.getElementById("name");
+let nameDisp = document.getElementById("nameDisp");
 
-function f() {
-  document.querySelector('h1').innerHTML = 'look';
-}
+nameInput.onchange = function () {
+  nameDisp.innerHTML = nameInput.value;
+};
